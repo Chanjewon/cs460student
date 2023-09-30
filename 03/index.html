@@ -90,10 +90,10 @@
         //var geometry = new THREE.BoxGeometry( 20, 20, 20 );
         //var material = new THREE.MeshStandardMaterial({ color: 0xffffff, wireframe: true });
         //var cube = new THREE.Mesh( geometry, material );
-        const geometry = new THREE.torusKnot( 10, 3, 100, 16 )
-        const material = new THREE.MeshBasicMaterial( { color: 0xffff00 } ); 
+        var geometry = new THREE.torusKnot( 10, 3, 100, 16 )
+        var material = new THREE.MeshBasicMaterial( { color: 0xffff00 } ); 
 
-        const torusKnot = new THREE.Mesh( geometry, material ); 
+        var torusKnot = new THREE.Mesh( geometry, material ); 
 
         scene.add( torusKnot );
         //scene.add( cube );
